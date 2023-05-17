@@ -10,5 +10,7 @@ public:
 	void setId();
 	void printAll();
 	mahasiswa(string pnama) :nama(pnama) { setId(); }
-
 };
+
+int mahasiswa::nim = 0;
+
